@@ -1,0 +1,52 @@
+{
+  "name": "report_cesti_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.20.0",
+    "@ant-design/nextjs-registry": "^1.0.0",
+    "@nextui-org/react": "^2.4.1",
+    "@xpd/tailwind-3dtransforms": "^1.0.3",
+    "antd": "^5.18.1",
+    "axios": "^1.7.2",
+    "cookies-next": "^4.2.1",
+    "dayjs": "^1.11.11",
+    "framer-motion": "^11.2.10",
+    "gsap": "^3.12.5",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "scrolltrigger": "^1.0.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.5.0",
+    "@storybook/addon-essentials": "^8.1.6",
+    "@storybook/addon-interactions": "^8.1.6",
+    "@storybook/addon-links": "^8.1.6",
+    "@storybook/addon-onboarding": "^8.1.6",
+    "@storybook/blocks": "^8.1.6",
+    "@storybook/nextjs": "^8.1.6",
+    "@storybook/react": "^8.1.6",
+    "@storybook/test": "^8.1.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-plugin-storybook": "^0.8.0",
+    "postcss": "^8",
+    "prettier": "^3.3.1",
+    "prettier-plugin-tailwindcss": "^0.6.2",
+    "storybook": "^8.1.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
